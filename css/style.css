@@ -1,25 +1,99 @@
-/* Style your calculator */
-#readout {
-    width: 312px;
-    height: 100px;
-    border: 1px solid black;
-    margin-bottom: 5px;
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+body {
+    background: #FFFFFF;
+    background: linear-gradient(#3269c1, #19335e);
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+
 }
 
-#numbers{
-    width: 400px;
+html {
+    height: 100%;
 }
 
-.btn {            
-    width: 100px;
+.header {
+    text-align: center;
+    background-color: #b76b24;
+    padding: 20px 0 20px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 15px solid #8e551f;
+}
+h1 {
+    font-size: 60px;
+}
+
+#calculator {
+    width: 30%;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #87807a;
+    padding-top: 30px;
+    min-width: 450px;
+    max-width: 450px;
+}
+
+.display {
+    border: #FFFFFF solid 2px;
+    background-color: #ffffff;
+    width: 80%;
+    height: 60px;
+    padding-top: 5px;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+#clear {
+    border-radius: 0;
+    background-color: #96910f;
+    height: 50px;
+    float: right;
+    margin-right: 20px;
+}
+#backspace {
+    border-radius: 0;
+    background-color: #96910f;
+    height: 50px;
+    float: right;
+    margin-right: 80px;
+}
+.clearBackspace {
+    margin-top: 40px;
+    width: 100%;
+}
+
+#numbers-row {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    margin: 8px;
+    border-radius: 38px;
+    width: 80px;
     height: 80px;
-    border: 1px solid black;
-    display: inline-block;
-    background-color: green;
-    margin-bottom: 5px;
-    
+    border: none;
+    background-color: #ffffff;
 }
-
-#zero {
-    width: 206px;
+button:hover {
+    background-color: #b76b24;
+    color: #FFFFFF;
+}
+.opp {
+    background-color: #b76b24;
+}
+.decimal:hover {
+    background-color: #FFFFFF;
+    color: #3269c1;
+}
+.operator:hover {
+    background-color: #FFFFFF;
+    color: #3269c1;
+}
+.eval:hover {
+    background-color: #FFFFFF;
+    color: #3269c1;
 }
